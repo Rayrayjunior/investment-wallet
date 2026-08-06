@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "symbol": "AAPL",
+    "company": "Apple Inc.",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 235.8
+  },
+  {
+    "id": 2,
+    "symbol": "MSFT",
+    "company": "Microsoft",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 518.2
+  },
+  {
+    "id": 3,
+    "symbol": "NVDA",
+    "company": "NVIDIA",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 171.35
+  },
+  {
+    "id": 4,
+    "symbol": "AMZN",
+    "company": "Amazon",
+    "sector": "E-Commerce",
+    "currency": "USD",
+    "price": 228.9
+  },
+  {
+    "id": 5,
+    "symbol": "GOOGL",
+    "company": "Alphabet",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 193.15
+  },
+  {
+    "id": 6,
+    "symbol": "META",
+    "company": "Meta Platforms",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 721.4
+  },
+  {
+    "id": 7,
+    "symbol": "TSLA",
+    "company": "Tesla",
+    "sector": "Automotive",
+    "currency": "USD",
+    "price": 332.6
+  },
+  {
+    "id": 8,
+    "symbol": "NFLX",
+    "company": "Netflix",
+    "sector": "Entertainment",
+    "currency": "USD",
+    "price": 1290.2
+  },
+  {
+    "id": 9,
+    "symbol": "AMD",
+    "company": "Advanced Micro Devices",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 185.4
+  },
+  {
+    "id": 10,
+    "symbol": "INTC",
+    "company": "Intel",
+    "sector": "Technology",
+    "currency": "USD",
+    "price": 28.5
+  },
+  {
+    "id": 11,
+    "symbol": "BABA",
+    "company": "Alibaba",
+    "sector": "E-Commerce",
+    "currency": "USD",
+    "price": 122.8
+  },
+  {
+    "id": 12,
+    "symbol": "KO",
+    "company": "Coca-Cola",
+    "sector": "Consumer",
+    "currency": "USD",
+    "price": 72.9
+  },
+  {
+    "id": 13,
+    "symbol": "DIS",
+    "company": "Disney",
+    "sector": "Entertainment",
+    "currency": "USD",
+    "price": 124.3
+  },
+  {
+    "id": 14,
+    "symbol": "JPM",
+    "company": "JPMorgan Chase",
+    "sector": "Banking",
+    "currency": "USD",
+    "price": 304.2
+  },
+  {
+    "id": 15,
+    "symbol": "V",
+    "company": "Visa",
+    "sector": "Finance",
+    "currency": "USD",
+    "price": 367.8
+  }
+]
