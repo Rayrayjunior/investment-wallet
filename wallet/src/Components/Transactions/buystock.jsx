@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect} from "react"
 
-const buyStock = ( addtoWallet ) => {
+const BuyStock = ( addtoWallet ) => {
 
     const [stock, setStock] = useState([]);
     const [name, setName] = useState("");
@@ -15,7 +15,11 @@ const buyStock = ( addtoWallet ) => {
             amount : amount,
             TansID : Date.now()
         };
-    }
+
+        addtoWallet(walletInfo);
+        setName("");
+        setAmount("");
+    };
 
     return(
         <div>
