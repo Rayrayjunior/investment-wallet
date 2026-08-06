@@ -2,6 +2,7 @@ import { useState, useMemo, useEffect} from "react"
 
 const buyStock = ( addtoWallet ) => {
 
+    const [stock, setStock] = useState([]);
     const [name, setName] = useState("");
     const [amount, setAmount] = useState("");
 
@@ -18,7 +19,7 @@ const buyStock = ( addtoWallet ) => {
 
     return(
         <div>
-            
+
         </div>
     )
 };
