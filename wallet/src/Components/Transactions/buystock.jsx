@@ -15,6 +15,12 @@ const buyStock = ( addtoWallet ) => {
             TansID : Date.now()
         };
     }
+
+    return(
+        <div>
+            
+        </div>
+    )
 };
 
 export default buyStock;
