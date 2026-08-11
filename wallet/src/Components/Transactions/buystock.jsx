@@ -13,10 +13,20 @@ const BuyStock = ( addtoWallet ) => {
         const loadHost = async () => {
 
             try {
-                setLoading
+                setLoading(true);
+
+                const article = await fetchData();
+                setHost(article["host"]);
+
+            } catch (err) {
+                setError("Not found");
+            } finally {
+                setLoading(false);
             }
-        }
-    })
+        };
+
+        loadHost();
+    }, []);
 
     const theDetails = () => {
 
