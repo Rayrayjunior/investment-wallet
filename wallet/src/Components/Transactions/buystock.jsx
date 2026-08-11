@@ -1,10 +1,22 @@
-import { useState, useEffect} from "react"
+import { useState, useMemo, useEffect} from "react"
 
 const BuyStock = ( addtoWallet ) => {
 
     const [stock, setStock] = useState([]);
     const [name, setName] = useState("");
     const [amount, setAmount] = useState("");
+    const [loading, setLoading] = useState(true);
+    const [error, setError]  = useState(null);
+
+    useEffect(() => {
+
+        const loadHost = async () => {
+
+            try {
+                setLoading
+            }
+        }
+    })
 
     const theDetails = () => {
 
