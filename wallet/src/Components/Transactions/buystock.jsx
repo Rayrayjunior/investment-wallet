@@ -17,7 +17,7 @@ const BuyStock = ( {addtoWallet} ) => {
                 setLoading(true);
 
                 const article = await fetchData();
-                setStock(article);
+                setStocks(article);
 
                 // Fetch data
 
@@ -58,7 +58,8 @@ const BuyStock = ( {addtoWallet} ) => {
 
     return(
         <div>
-        <select name="" id="">
+            <input type="number" value={amount} onChange={getAmount}/>
+        <select value={name} onChange={getName}>
             {stocks.map((stock) => (
                 <option key={stock.id} value={stock.id}>
                     {stock.name}
@@ -69,4 +70,4 @@ const BuyStock = ( {addtoWallet} ) => {
     )
 };
 
-export default buyStock;
+export default BuyStock;
