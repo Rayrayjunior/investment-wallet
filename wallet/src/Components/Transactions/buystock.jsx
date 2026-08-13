@@ -31,14 +31,14 @@ const BuyStock = ( {addtoWallet} ) => {
         loadStocks();
     }, []);
 
-    const getName = (event) => {
+    const getName = (e) => {
 
-        setName(event.target.value);
+        setName(e.target.value);
     }
 
-    const getAmount = (event) => {
+    const getAmount = (e) => {
 
-        setAmount(event.target.value);
+        setAmount(e.target.value);
     }
 
     const theDetails = () => {
@@ -58,7 +58,6 @@ const BuyStock = ( {addtoWallet} ) => {
 
     return(
         <div>
-            <input type="number" value={amount} onChange={getAmount}/>
             <input type="number" value={amount} onChange={getAmount}/>
         <select value={name} onChange={getName}>
             {stocks.map((stock) => (
