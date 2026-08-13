@@ -67,6 +67,7 @@ const BuyStock = ( {addtoWallet} ) => {
                 </option>
             ) )}
         </select>
+        <button onClick={theDetails}>Buy</button>
         </div>
     )
 };
