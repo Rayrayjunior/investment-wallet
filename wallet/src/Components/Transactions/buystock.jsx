@@ -59,6 +59,7 @@ const BuyStock = ( {addtoWallet} ) => {
     return(
         <div>
             <input type="number" value={amount} onChange={getAmount}/>
+            <input type="number" value={amount} onChange={getAmount}/>
         <select value={name} onChange={getName}>
             {stocks.map((stock) => (
                 <option key={stock.id} value={stock.id}>
