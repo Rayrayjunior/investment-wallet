@@ -3,7 +3,7 @@ import { fetchData } from "../API/stock"
 
 const BuyStock = ( {addtoWallet} ) => {
 
-    const [stock, setStock] = useState([]);
+    const [stocks, setStocks] = useState([]);
     const [name, setName] = useState("");
     const [amount, setAmount] = useState("");
     const [loading, setLoading] = useState(true);
@@ -58,7 +58,13 @@ const BuyStock = ( {addtoWallet} ) => {
 
     return(
         <div>
-
+        <select name="" id="">
+            {stocks.map((stock) => (
+                <option key={stock.id} value={stock.id}>
+                    {stock.name}
+                </option>
+            ) )}
+        </select>
         </div>
     )
 };
